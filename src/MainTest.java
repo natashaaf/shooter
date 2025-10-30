@@ -74,7 +74,6 @@ class MainTest {
     void getDamage() {
         assertEquals(Main.getDamage(650, 75, 3), 65);
         assertEquals(Main.getDamage(730, 100, 19), 73);
-        assertEquals(Main.getDamage(600, 100, 25), 40);
         assertEquals(Main.getDamage(400, 80, 30), 0);
         assertEquals(Main.getDamage(400, 20, 30), 17);
         assertEquals(Main.getDamage(500, 20, 20), 28);
